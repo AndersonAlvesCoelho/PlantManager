@@ -29,6 +29,11 @@ Você pode visualiza o layout do projeto pelo [figma](https://www.figma.com/file
 - [x] Splash screen
 - [x] Tela de boas vindas
 
+2º dia
+- [x] Melhorar o design
+- [x] Criar arquivo de estilo de fonts
+- [x] Tela de indetificação de usuários
+- [x] Navegação de telas com Stack Navigator
 
 
 
