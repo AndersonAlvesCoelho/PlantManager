@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "radial-gradient(107.35% 50% at 50% 50%, #FFFFFF 0%, #EDFCF4 100%);"
+      "backgroundColor": "#EDFCF4"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,7 +22,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "radial-gradient(107.35% 50% at 50% 50%, #FFFFFF 0%, #EDFCF4 100%);"
+        "backgroundColor": "#EDFCF4"
       }
     },
     "web": {

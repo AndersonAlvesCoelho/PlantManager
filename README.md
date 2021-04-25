@@ -35,6 +35,12 @@ Você pode visualiza o layout do projeto pelo [figma](https://www.figma.com/file
 - [x] Tela de indetificação de usuários
 - [x] Navegação de telas com Stack Navigator
 
+3º dia
+- [x] Tela de seleção de planta
+- [x] Consumir  API par acarregar as plantas
+- [x] Filtro de plantas por ambiente
+- [x] Melhorar navegação de telas
+
 
 
 ## 📣 O que é Next Level Week?

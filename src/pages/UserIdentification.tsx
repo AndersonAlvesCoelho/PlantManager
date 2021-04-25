@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
         lineHeight: 32,
         textAlign: 'center',
         color: colors.heading,
-        fontFamily: fonts.heading,
+        fontFamily: fonts.text,
         marginTop: 20,
     },
     input: {

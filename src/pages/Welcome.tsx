@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         color: colors.heading,
         marginTop: 38,
-        fontFamily: fonts.heading,
+        fontFamily: fonts.text,
         lineHeight: 34
     },
     subTitle: {
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
         fontSize: 18,
         paddingHorizontal: 20,
         color: colors.heading,
-        fontFamily: fonts.text,
+        fontFamily: fonts.heading,
     },
     button: {
         backgroundColor: colors.green,

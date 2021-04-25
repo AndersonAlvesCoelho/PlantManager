@@ -1,5 +1,6 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import { useNavigation } from '@react-navigation/core';
 
 import { Button } from '../components/Button';
 
@@ -8,6 +9,11 @@ import fonts from '../styles/fonts';
 
 
 export function Confirmation() {
+
+    const navigation = useNavigation();
+    function handleSubmit() {
+        navigation.navigate('PlantSelect')
+    }
 
     return (
         <SafeAreaView style={styles.container}>
@@ -22,7 +28,10 @@ export function Confirmation() {
                 </Text>
 
                 <View style={styles.footer}>
-                    <Button title="Confirmar" />
+                    <Button
+                        onPress={handleSubmit}
+                        title="Confirmar"
+                    />
                 </View>
             </View>
         </SafeAreaView>
@@ -47,14 +56,14 @@ const styles = StyleSheet.create({
     },
     title: {
         fontSize: 22,
-        fontFamily: fonts.heading,
+        fontFamily: fonts.text,
         textAlign: 'center',
         color: colors.heading,
         lineHeight: 38,
         marginTop: 15,
     },
     subTitle: {
-        fontFamily: fonts.text,
+        fontFamily: fonts.heading,
         textAlign: 'center',
         fontSize: 17,
         paddingHorizontal: 10,
