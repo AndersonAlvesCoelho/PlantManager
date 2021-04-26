@@ -41,6 +41,11 @@ Você pode visualiza o layout do projeto pelo [figma](https://www.figma.com/file
 - [x] Filtro de plantas por ambiente
 - [x] Melhorar navegação de telas
 
+4º dia
+- [x] Validação do nome do usuário
+- [x] Armazena o nome do usuário com Async Storage
+- [x] Armazena a planta escolhida com Async Storage
+- [x] Tela de lista d eplantas salvas
 
 
 ## 📣 O que é Next Level Week?
