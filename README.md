@@ -47,6 +47,12 @@ Você pode visualiza o layout do projeto pelo [figma](https://www.figma.com/file
 - [x] Armazena a planta escolhida com Async Storage
 - [x] Tela de lista d eplantas salvas
 
+5º dia
+- [x] Refatorar código
+- [x] Aplicando o efeito de Swipe no componente PlantCardSecondary
+- [x] Remover uma planta do Storage
+- [x] A API de Notificações
+
 
 ## 📣 O que é Next Level Week?
 
