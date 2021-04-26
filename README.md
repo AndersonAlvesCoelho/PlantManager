@@ -1,15 +1,28 @@
 > 💡 Tecnologias utilizadas no projeto :
 
-
 <code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"></code>
 <code><img height="20" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrNOA3NJoe1jTieGFscwIvsbd0Jpm6oEE_gA&usqp=CAU"></code>
+<code><img height="20" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrANRUXZNigIV4AJuOJceMPbL_1MHw-ueI4Q&usqp=CAU"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
 <code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png"></code>
+<code><img height="20" src="https://hackagenda.com.br/wp-content/uploads/2021/03/nlw.png"></code>
 
 <div align="center">
     <img alt="NPS" title="NPS" height="100" src="./assets/icon.png" />
 <h3>Plant Manager</h3>
-<img height="100"  src="https://hackagenda.com.br/wp-content/uploads/2021/03/nlw.png">
+</div>
+
+<div align="center">
+  <img src="./figma/Splash.png" width="250" />
+  <img src="./figma/Bem-vindo.png" width="250" />
+</div>
+<div align="center">
+  <img src="./figma/Escolha-uma-planta.png" width="250" />
+  <img src="./figma/Planta.png" width="250" />
+</div>
+<div align="center">
+  <img src="./figma/Deletar.png" width="250" />
+  <img src="./figma/Deletar-confirmar.png" width="250" />
 </div>
 
 ## 💡 Sobre o Projeto
@@ -24,35 +37,71 @@ Você pode visualiza o layout do projeto pelo [figma](https://www.figma.com/file
 ## 📚 Atividades realizadas
 
 1º dia
+
 - [x] Configuração de ambiente de desenvolvimento
 - [x] Start do projeto
 - [x] Splash screen
 - [x] Tela de boas vindas
 
 2º dia
+
 - [x] Melhorar o design
 - [x] Criar arquivo de estilo de fonts
 - [x] Tela de indetificação de usuários
 - [x] Navegação de telas com Stack Navigator
 
 3º dia
+
 - [x] Tela de seleção de planta
-- [x] Consumir  API par acarregar as plantas
+- [x] Consumir API par acarregar as plantas
 - [x] Filtro de plantas por ambiente
 - [x] Melhorar navegação de telas
 
 4º dia
+
 - [x] Validação do nome do usuário
 - [x] Armazena o nome do usuário com Async Storage
 - [x] Armazena a planta escolhida com Async Storage
 - [x] Tela de lista d eplantas salvas
 
 5º dia
+
 - [x] Refatorar código
 - [x] Aplicando o efeito de Swipe no componente PlantCardSecondary
 - [x] Remover uma planta do Storage
 - [x] A API de Notificações
 
+## Instruções para visualizar o projeto
+
+### Requerimentos
+
+- [Node.js](https://nodejs.org/en/download/)
+- [Expo - Play.google](https://play.google.com/store/apps/details?id=host.exp.exponent)
+- [Expo - App Store](https://apps.apple.com/br/app/expo-go/id982107779)
+
+```bash
+    # Clone Repository
+    git clone https://github.com/AndersonAlvesCoelho/PlantManager
+    cd PlantManager
+```
+
+#### 💻 Frontend
+
+```bash
+    #instale as dependências necessárias com:
+    npm i ou yarn
+    #agora start o projeto
+    npm start ou yarn start
+```
+
+#### 📦 Server
+
+```bash
+    #Com um outro cmd aberto, starta o server no mesmo diretorio no PlantManager
+    npm server ou yarn server
+```
+
+---
 
 ## 📣 O que é Next Level Week?
 
