@@ -1,4 +1,4 @@
-> 💡 Tecnologias utilizadas no projeto :
+> 💡 Ferramnetas utilizadas no projeto :
 
 <code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"></code>
 <code><img height="20" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrNOA3NJoe1jTieGFscwIvsbd0Jpm6oEE_gA&usqp=CAU"></code>
@@ -9,29 +9,59 @@
 
 <div align="center">
     <img alt="NPS" title="NPS" height="100" src="./assets/icon.png" />
-<h3>Plant Manager</h3>
+<h1>Plant Manager</h1>
 </div>
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=32B768&labelColor=000000">
 
-<div align="center">
-  <img src="./figma/Splash.png" width="250" />
-  <img src="./figma/Bem-vindo.png" width="250" />
-</div>
-<div align="center">
-  <img src="./figma/Escolha-uma-planta.png" width="250" />
-  <img src="./figma/Planta.png" width="250" />
-</div>
-<div align="center">
-  <img src="./figma/Deletar.png" width="250" />
-  <img src="./figma/Deletar-confirmar.png" width="250" />
-</div>
+ <img src="https://img.shields.io/static/v1?label=NLW&message=05&color=32B768&labelColor=000000" alt="NLW 05" />
+</p>
+
+<h1 align="center">
+  <img alt="Plant Manager" title="Plant Manager" src="./figma/plantmanager.png" />
+</h1>
+
+<br>
 
 ## 💡 Sobre o Projeto
 
 Este projeto está sendo desenvolvido no evento Next Level Week # 05 pela [Rocketseat](https://rocketseat.com.br/) 🚀&nbsp;💜
 
-Plant Manager é um aplicativo ajudar a cuidar da sua plantar.
+Aplicativo para lhe ajudar a lembrar de cuidar de suas plantas de forma fácil de acordo com cada tipo de plantinha.
+
 Você pode visualiza o layout do projeto pelo [figma](https://www.figma.com/file/IhQRtrOZdu3TrvkPYREzOy/PlantManager/duplicate).
 
+---
+
+## Instruções para visualizar o projeto
+
+### Requerimentos
+
+- [Node.js](https://nodejs.org/en/download/)
+- [Expo - Play google](https://play.google.com/store/apps/details?id=host.exp.exponent)
+- [Expo - App Store](https://apps.apple.com/br/app/expo-go/id982107779)
+
+```bash
+    # Clone Repository
+    git clone https://github.com/AndersonAlvesCoelho/PlantManager
+    cd PlantManager
+```
+
+#### 💻 Frontend
+
+```bash
+    #instale as dependências necessárias com:
+    npm i ou yarn
+    #agora start o projeto
+    npm start ou yarn start
+```
+
+#### 📦 Server
+
+```bash
+    #Com um outro cmd aberto, starta o server no mesmo diretorio no PlantManager
+    npm server ou yarn server
+```
 ---
 
 ## 📚 Atividades realizadas
@@ -70,36 +100,6 @@ Você pode visualiza o layout do projeto pelo [figma](https://www.figma.com/file
 - [x] Aplicando o efeito de Swipe no componente PlantCardSecondary
 - [x] Remover uma planta do Storage
 - [x] A API de Notificações
-
-## Instruções para visualizar o projeto
-
-### Requerimentos
-
-- [Node.js](https://nodejs.org/en/download/)
-- [Expo - Play.google](https://play.google.com/store/apps/details?id=host.exp.exponent)
-- [Expo - App Store](https://apps.apple.com/br/app/expo-go/id982107779)
-
-```bash
-    # Clone Repository
-    git clone https://github.com/AndersonAlvesCoelho/PlantManager
-    cd PlantManager
-```
-
-#### 💻 Frontend
-
-```bash
-    #instale as dependências necessárias com:
-    npm i ou yarn
-    #agora start o projeto
-    npm start ou yarn start
-```
-
-#### 📦 Server
-
-```bash
-    #Com um outro cmd aberto, starta o server no mesmo diretorio no PlantManager
-    npm server ou yarn server
-```
 
 ---
 
